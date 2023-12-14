@@ -1,0 +1,13 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: my-group
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mydatabase
+
+server:
+  port: 1111
